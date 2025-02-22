@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #a3d9ff;
+  margin: 0;
+  padding: 0;
+}
+.game-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.attempts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.attempt-box {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  margin: 5px;
+  border-radius: 5px;
+}
+.river-scene {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  background-color: #0099cc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bank {
+  width: 25%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.left-bank {
+  background-color: gray;
+  color: white;
+}
+.right-bank {
+  background-color: green;
+  color: white;
+}
+.river {
+  width: 50%;
+  position: relative;
+  background-color: #0077b6;
+  border-radius: 10px;
+}
+.lily-pad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  background-color: #66cc66;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+}
+.frog {
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translateY(-50%);
+}
+.input-section {
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.word-list p {
+  margin: 5px 0;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#guess-input {
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Leap Frog</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Leap Frog</h1>
+      <div class="attempts">
+        <span class="attempt-box" id="attempt1"></span>
+        <span class="attempt-box" id="attempt2"></span>
+        <span class="attempt-box" id="attempt3"></span>
+        <span class="attempt-box" id="attempt4"></span>
+        <span class="attempt-box" id="attempt5"></span>
+      </div>
+      <div class="river-scene">
+        <div class="bank left-bank">
+          <div class="word-list">
+            <p>CUP</p>
+            <p>PLATE</p>
+            <p>CHAIR</p>
+          </div>
+          <div class="frog" id="frog">🐸</div>
+        </div>
+        <div class="river">
+          <div class="lily-pad" id="lily-pad">
+            <input type="text" id="guess-input" placeholder="GUESS" />
+          </div>
+        </div>
+        <div class="bank right-bank">
+          <div class="word-list">
+            <p>GAME</p>
+            <p>TABLE</p>
+            <p>ROOM</p>
+          </div>
+        </div>
+      </div>
+      <div class="input-section">
+        <button onclick="checkAnswer()">Submit</button>
+      </div>
+      <p id="result-message"></p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
